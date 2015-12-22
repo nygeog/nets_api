@@ -6,6 +6,11 @@
 ## Buffering and intersecting data via PostGIS SQL
 ![](img/pyscopg2_test_buffer_intersect_return.gif)
 
+Key funtion, that is the only think user would need to reference, could loop through lists of lat,lng's (rather than send all up at once and have a huge file returned - though some testing could determine if this is desirable). 
+
+	getNetsFromLatLng('-74.0059 40.7127','0.01') 
+
+
 ## Protecting your _secret_info (database username and password) with .gitignore
 
 ###.gitignore<a name="gitignore"></a>
