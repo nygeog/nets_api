@@ -3,6 +3,10 @@
 ## Getting data via simple SQL query
 ![](img/pyscopg2_test_1990_limit_10.gif)
 
+Key SQL statement
+
+	"""SELECT * from nets_23_cty_ne WHERE beh_end < 1991 LIMIT 10"""
+
 ## Buffering and intersecting data via PostGIS SQL
 ![](img/pyscopg2_test_buffer_intersect_return.gif)
 
