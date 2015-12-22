@@ -1,6 +1,6 @@
 # NETS API for 25 year national dataset
 
-## Getting data via simple SQL query
+## Getting data via vanilla SQL query
 ![](img/pyscopg2_test_1990_limit_10.gif)
 
 Key SQL statement
