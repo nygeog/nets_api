@@ -41,3 +41,4 @@ Here's what your **\_secret_info.py** file should look like, if you choose to us
 * port to R
 * reference and create nets_api.py with functions in that file
 * include reference modules
+* python ui, via [TkInter](https://wiki.python.org/moin/TkInter)
