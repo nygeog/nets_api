@@ -28,7 +28,7 @@ for i in db_cols:
 	print i[3]
 	col_list.append(i[3])
 
-with open('test_1990_limit_10.csv', 'w') as fp:
+with open('data/test_1990_limit_10.csv', 'w') as fp:
     a = csv.writer(fp, delimiter=',')
     a.writerow(col_list)
     a.writerows(rows)

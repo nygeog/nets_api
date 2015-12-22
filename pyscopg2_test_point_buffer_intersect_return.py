@@ -45,7 +45,7 @@ def getNetsFromLatLng(inLngLat,bufDist):
 		print i[3]
 		col_list.append(i[3])
 
-	with open('test_point_buffer_intersect_return_'+fd+'.csv', 'w') as fp:
+	with open('data/test_point_buffer_intersect_return_'+fd+'.csv', 'w') as fp:
 	    a = csv.writer(fp, delimiter=',')
 	    a.writerow(col_list)
 	    a.writerows(rows)
