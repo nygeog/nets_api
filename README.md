@@ -26,3 +26,9 @@ Here's what your **\_secret_info.py** file should look like, if you choose to us
 	s_user     = <username>
 	s_host     = <db host address>
 	s_password = <password>
+	
+	
+##To Do:
+* port to R
+* reference and create nets_api.py with functions in that file
+* include reference modules
